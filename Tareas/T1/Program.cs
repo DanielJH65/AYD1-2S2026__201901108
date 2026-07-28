@@ -23,7 +23,7 @@ app.MapGet("/", () => new
 app.MapGet("/datos", () => new
 {
     nombre = "Walter Daniel Jiménez Hernández",
-    canción = "Ya no - Julión Álvarez"
+    albúm = "4218"
 });
 
 app.Run();
